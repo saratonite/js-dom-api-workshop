@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keyboard events</title>
+    <input type="text" id="mytext">
+    <p id="result"></p>
+</head>
+<body>
+   <h1>Open Console</h1>
+    
+    <script>
+    
+        
+            
+            var mytext = document.getElementById('mytext');
+            console.log(mytext);
+            window.onkeypress = function(event){
+               console.log(event.keyCode,event.charCode,event.pageX);
+                
+            };
+            
+        
+    </script>
+</body>
+</html>
