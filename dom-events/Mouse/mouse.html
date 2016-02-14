@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mouse</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+     position: relative;
+        padding: 10px;
+        margin: 5px;
+    }
+    .cool{
+        position: absolute;
+/*        height: auto;*/
+        background: #f56;
+        padding: 5px;
+        margin: 0;
+        border-radius: 5px;
+/*        overflow: hidden;*/
+
+    }
+    .cool p{
+        background: white;
+    }
+</style>
+<body>
+
+   <h1>Open Console</h1>
+    <h2>Click Window</h2>
+    <div class="cool">You are awsome <p>At <span id="posX"></span>&times;<span id="posY"></span></p></div>
+    <script>
+    window.addEventListener('click',function(event){
+
+        console.log(event.target);
+        console.log("Mouse Position X ",event.screenX);
+        console.log("Mouse Position Y ",event.screenY);
+
+        // A count of consecutive clicks that happened in a short amount of time, incremented by one.
+        console.log(event.detail);
+
+        // Move the cool div
+        var coolElem = document.querySelector('.cool');
+        coolElem.style.top = event.clientY+"px";
+        coolElem.style.left = event.clientX+"px";
+        document.querySelector('#posX').innerHTML = event.clientX;
+        document.querySelector('#posY').innerHTML = event.clientY;
+    });
+
+    //
+
+//    window.addEventListener('mousedown',function(e){
+//       alert('Mouse down');
+//    });
+
+
+//    window.addEventListener('mouseover',function(e){
+//        alert('see');
+//    });
+
+
+    window.addEventListener('contextmenu',function(){
+       alert('Pops');
+        console.log(event.button);
+         event.stopPropagation();
+        event.cancelBubble = true;
+        return false;
+    });
+    </script>
+</body>
+</html>

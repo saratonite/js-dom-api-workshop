@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Copy</title>
+</head>
+<body>
+
+
+    Copy somthing ...
+
+    <script>
+
+    // Copy event
+     document.addEventListener('copy',function(e){
+
+        console.log(e);
+        alert('Coping');
+         alert(e.clipboardData.getData());
+     });
+    </script>
+</body>
+</html>
