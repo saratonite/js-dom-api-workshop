@@ -1,0 +1,19 @@
+body{
+height: 100%;
+}
+.app{
+  width: 75%;
+  margin: 10px auto;
+  .selection{
+    background-color: grey;
+    padding: 10px;
+  }
+}
+img{
+  width: 30%;
+
+  min-height:300px;
+  min-width: 30%;
+  background: red;
+
+}
