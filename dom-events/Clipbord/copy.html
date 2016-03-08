@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Copy</title>
+
+
 </head>
 <body>
 
 
     Copy somthing ...
+
+    <input type="text" id="txt-copy">
 
     <script>
 
@@ -17,6 +21,13 @@
         console.log(e);
         alert('Coping');
          alert(e.clipboardData.getData());
+     });
+
+     var copytext = document.getElementById('txt-copy');
+
+     copytext.addEventListener('copy',function(e){
+        alert('Kick');
+        console.log(e);
      });
     </script>
 </body>

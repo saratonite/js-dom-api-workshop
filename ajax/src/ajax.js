@@ -8,16 +8,29 @@ console.log("Ajaxjs");
 
 			this.xhr = new XMLHttpRequest();
 
+			this.url = "data.json";
+			this.method = "GET";
+
 		}
 
 		ajaxDef.prototype = {
 
 			init:function(){
+				var self = this;
 				this.xhr.onreadystatechange = function(){
-					alert("Hoorey");
+
+					console.info(self.xhr.status,self.xhr.readyState);
+
+					console.info(self.xhr.responseText);
+
+
+				};
+
+				this.xhr.onerror = function(){
+					alert("Errror");
 				}
 
-				this.xhr.open('GET','data.json',true);
+				this.xhr.open(this.method,this.url,true);
 				this.xhr.send();
 			}
 
