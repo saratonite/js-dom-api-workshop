@@ -8,6 +8,8 @@
     "start": "lite-server add-remove-toggle-class",
     "hashchange": "lite-server hashchange",
     "ajax": "lite-server ajax",
+    "filereader": "lite-server FileReader",
+    "event:load": "lite-server dom-events/DocumentLoad",
     "event:mouse": "lite-server dom-events/Mouse",
     "event:keyboard": "lite-server dom-events/Keyboard"
   },

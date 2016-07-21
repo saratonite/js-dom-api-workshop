@@ -29,7 +29,7 @@ function openFile(e){
 
 }
 output.addEventListener('error',function(event){
-
-  alert('Hello');
+  console.log('On Error');
+  console.log(event);
 
 });
