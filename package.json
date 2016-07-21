@@ -1,16 +1,22 @@
 {
-  "name": "Javascript DOM API WORKSHOP",
+  "name": "Javascript-DOM-API-WORKSHOP",
   "version": "1.0.0",
   "description": "Javascript DOM API WORKSHOP",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server add-remove-toggle-class",
+    "hashchange": "lite-server hashchange",
+    "ajax": "lite-server ajax",
+    "event:mouse": "lite-server dom-events/Mouse",
+    "event:keyboard": "lite-server dom-events/Keyboard"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "gulp-autoprefixer": "^3.1.0",
     "gulp-connect": "^2.3.1",
-    "gulp-sass": "^2.1.1"
+    "gulp-sass": "^2.1.1",
+    "lite-server": "^2.2.2"
   }
 }
