@@ -1,12 +1,33 @@
 # The Dom Experiments
 
 
-* Dom Events
-  1. Load
-  2. Keyboard
-  3. Mouse
-  
-  
 
+## Install
 
-  
+```bash
+npm install
+```
+
+## Workshop Examples
+```bash
+npm run <workshop-name>
+
+```
+
+Example
+```bash
+npm run ajax
+```
+
+## Available Workshops
+### General
++ ajax
++ filereader
+
+### Events
+
++ event:clipboard
++ event:hashchange
++ event:load
++ event:keyboard
++ event:mouse
