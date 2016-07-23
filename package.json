@@ -11,7 +11,9 @@
     "event:hashchange": "lite-server hashchange",
     "event:load": "lite-server dom-events/DocumentLoad",
     "event:mouse": "lite-server dom-events/Mouse",
-    "event:keyboard": "lite-server dom-events/Keyboard"
+    "event:keyboard": "lite-server dom-events/Keyboard",
+    "dom:styling": "lite-server dom-styling",
+    "dom:manipulation": "lite-server dom-manipulation"
   },
   "author": "",
   "license": "ISC",
