@@ -13,7 +13,8 @@
     "event:mouse": "lite-server dom-events/Mouse",
     "event:keyboard": "lite-server dom-events/Keyboard",
     "dom:styling": "lite-server dom-styling",
-    "dom:manipulation": "lite-server dom-manipulation"
+    "dom:manipulation": "lite-server dom-manipulation",
+    "netconnection": "lite-server netconnection"
   },
   "author": "",
   "license": "ISC",
