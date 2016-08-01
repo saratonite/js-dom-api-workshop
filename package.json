@@ -8,6 +8,7 @@
     "start": "lite-server add-remove-toggle-class",
     "ajax": "lite-server ajax",
     "filereader": "lite-server FileReader",
+    "event:add-remove": "lite-server dom-events/add-remove",
     "event:hashchange": "lite-server hashchange",
     "event:load": "lite-server dom-events/DocumentLoad",
     "event:mouse": "lite-server dom-events/Mouse",
