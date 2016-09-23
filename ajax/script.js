@@ -1,3 +1,9 @@
-console.log("Script");			
+console.log("Script");
 var ajax = new ajax();
-ajax.init();
+ajax.init('data.json','GET',function(response){
+
+  console.info("SUCCESS");
+  console.log(response);
+  document.write((response.response));
+
+});
