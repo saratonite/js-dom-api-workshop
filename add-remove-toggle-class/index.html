@@ -3,24 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>Add Remove Class</title>
+    <link rel="stylesheet" href="base.css">
 
     <style media="screen">
+
+      #thebox{
+        height: 10em;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 9em;
+        border: dotted 1px green;
+      }
+
+      .blue{
+        background: blue;
+      }
       .red{
         background: red;
 
-      }
-      .blue{
-        background: blue;
       }
     </style>
   </head>
   <body>
 
-    <p class="red">
-      Hola
-    </p>
+    <main>
+
+      <header>
+        <h2>Vanilla Class Manipulation</h2>
+
+      </header>
+      <p id="thebox">
+        Hola
+      </p>
+
+      <div>
+        <button id="btn-add-blue">Add Blue</button>
+        <button id="btn-add-red">Add Red</button>
+        <button id="btn-toggle-red">Toggle Red</button>
+        <button id="btn-remove-red">Remove Red</button>
+        <button id="btn-has-red">Has Red</button>
+      </div>
+
+    </main>
+
+
 
   </body>
-
+  
   <script type="text/javascript" src="script.js"></script>
 </html>

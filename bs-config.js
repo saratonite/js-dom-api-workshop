@@ -8,6 +8,6 @@ module.exports = {
     "server" : {
         "baseDir" : BaseDir
     },
-    serveStatic: ['.', './src/shared']
+    serveStatic: ['.', './shared']
   //  "browser" : ["google-chrome", "firefox"]
 }
