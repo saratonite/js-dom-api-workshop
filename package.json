@@ -1,3 +1,4 @@
+
 {
   "name": "Javascript-DOM-API-WORKSHOP",
   "version": "1.0.0",
@@ -16,7 +17,8 @@
     "event:keyboard": "lite-server dom-events/Keyboard",
     "dom:styling": "lite-server dom-styling",
     "dom:manipulation": "lite-server dom-manipulation",
-    "netconnection": "lite-server netconnection"
+    "netconnection": "lite-server netconnection",
+    "childwindow": "lite-server ChildWindow"
   },
   "author": "",
   "license": "ISC",
