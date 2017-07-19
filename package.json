@@ -18,7 +18,8 @@
     "dom:styling": "lite-server dom-styling",
     "dom:manipulation": "lite-server dom-manipulation",
     "netconnection": "lite-server netconnection",
-    "childwindow": "lite-server ChildWindow"
+    "childwindow": "lite-server ChildWindow",
+    "speech": "lite-server speech"
   },
   "author": "",
   "license": "ISC",
