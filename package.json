@@ -19,7 +19,8 @@
     "dom:manipulation": "lite-server dom-manipulation",
     "netconnection": "lite-server netconnection",
     "childwindow": "lite-server ChildWindow",
-    "speech": "lite-server speech"
+    "speech": "lite-server speech",
+    "formdata": "lite-server formdata"
   },
   "author": "",
   "license": "ISC",
