@@ -20,7 +20,8 @@
     "netconnection": "lite-server netconnection",
     "childwindow": "lite-server ChildWindow",
     "speech": "lite-server speech",
-    "formdata": "lite-server formdata"
+    "formdata": "lite-server formdata",
+    "promise": "lite-server Promise"
   },
   "author": "",
   "license": "ISC",
