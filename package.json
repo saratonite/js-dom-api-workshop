@@ -21,7 +21,8 @@
     "childwindow": "lite-server ChildWindow",
     "speech": "lite-server speech",
     "formdata": "lite-server formdata",
-    "promise": "lite-server Promise"
+    "promise": "lite-server Promise",
+    "script-tag": "lite-server script-tag"
   },
   "author": "",
   "license": "ISC",

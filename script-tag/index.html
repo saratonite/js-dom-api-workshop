@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Script tag events</title>
+</head>
+<body>
+    <main>
+        <h1>script tag onload and onerror events</h1>
+    </main>
+    <script>
+        function scriptLoad() {
+
+            alert('Script loaded');
+
+            launchApp();
+        }
+
+        function onScriptLoadError() {
+            alert('Could not load app script');
+        }
+    </script>
+    <script defer  async onload="scriptLoad()" onerror="onScriptLoadError()" src="app.js"></script>
+</body>
+</html>
