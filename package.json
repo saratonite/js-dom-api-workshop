@@ -22,7 +22,8 @@
     "speech": "lite-server speech",
     "formdata": "lite-server formdata",
     "promise": "lite-server Promise",
-    "script-tag": "lite-server script-tag"
+    "script-tag": "lite-server script-tag",
+    "speech-rec": "lite-server speech-recognition"
   },
   "author": "",
   "license": "ISC",
