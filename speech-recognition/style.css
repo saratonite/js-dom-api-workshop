@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Coustard');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +6,7 @@
 
 html, body {
     height: 100%;
-    background-color: #673AB7;
+    background-color: #FFC107;
 }
 
 main {
@@ -17,10 +17,15 @@ main {
 }
 
 h2{
-    font-family: 'Coustard', serif;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 3em;
     transform: rotate(-10deg);
     color: #ddd;
+    /**/
+    background: -webkit-linear-gradient(#E91E63, #F44336);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
