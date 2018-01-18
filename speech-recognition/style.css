@@ -24,8 +24,15 @@ h2{
     transform: rotate(-10deg);
     color: #ddd;
     /**/
-    background: -webkit-linear-gradient(#E91E63, #F44336);
+    background:linear-gradient(135deg, #7117ea 0%,#ea6060 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
+}
+
+@media  screen and (max-width:600px) {
+    h2 {
+        font-size:1.5em;
+    }
 }
 
