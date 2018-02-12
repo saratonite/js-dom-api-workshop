@@ -23,7 +23,8 @@
     "formdata": "lite-server formdata",
     "promise": "lite-server Promise",
     "script-tag": "lite-server script-tag",
-    "speech-rec": "lite-server speech-recognition"
+    "speech-rec": "lite-server speech-recognition",
+    "html-audio-player": "lite-server html-audio-player"
   },
   "author": "",
   "license": "ISC",

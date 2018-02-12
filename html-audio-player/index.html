@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="music-player">
+            <audio id="player"
+            controls 
+            
+            >
+                <source src="audio/i-like-to.mp3" type="audio/mpeg" />
+            </audio>
+            <button id="play">▶</button>
+            <button id="pause">◻</button>
+            <button id="stop">◼</button>
+            <button id="mute">🔇</button>
+            <input id="volumeRange"  type="range" list="tickmarks" max="100" min="0" step="1">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
