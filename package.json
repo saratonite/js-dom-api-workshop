@@ -24,7 +24,8 @@
     "promise": "lite-server Promise",
     "script-tag": "lite-server script-tag",
     "speech-rec": "lite-server speech-recognition",
-    "html-audio-player": "lite-server html-audio-player"
+    "html-audio-player": "lite-server html-audio-player",
+    "wd": "lite-server window-dimentions"
   },
   "author": "",
   "license": "ISC",

@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    color: #535353;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2 {
+    font-size: 3rem;
+}
+
+.info {
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        background-color: orange;
+    }
+    #device::after{
+        content: "iPad"
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .container {
+        background-color: #00BCD4;
+    }
+    #device::after{
+        content: "iPad Pro"
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .container {
+        background-color: #E91E63;
+    }
+    #device::after{
+        content: "Desktop"
+    }
+}
