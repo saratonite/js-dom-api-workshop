@@ -1,4 +1,3 @@
-
 {
   "name": "Javascript-DOM-API-WORKSHOP",
   "version": "1.0.0",
@@ -25,7 +24,8 @@
     "script-tag": "lite-server script-tag",
     "speech-rec": "lite-server speech-recognition",
     "html-audio-player": "lite-server html-audio-player",
-    "wd": "lite-server window-dimentions"
+    "wd": "lite-server window-dimentions",
+    "webcam": "lite-server webcam-access"
   },
   "author": "",
   "license": "ISC",
